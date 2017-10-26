@@ -1,0 +1,21 @@
+.section {
+	display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.section ul {
+  display: flex;
+  padding: 8px;
+}
+
+.section li {
+  margin: 7px;
+  cursor: pointer;
+  font-size: $sans-serif;
+}
+
+a:hover {
+	background-color: $lightest-gray;
+  text-decoration: underline;
+}
